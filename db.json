@@ -1,0 +1,208 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/5/1/5166E-90X-050-1-308899_5.jpg",
+      "name": "Red Roses",
+      "count": 4,
+      "size": {
+        "width": 40,
+        "height": 60
+      },
+      "weight": "50g",
+      "comments": [
+        {
+          "id": 2,
+          "productId": 1,
+          "description": "The T-shirt was delivered quickly and it looks just as advertised. Very satisfied!",
+          "date": "14:20 25.06.2023"
+        },
+        {
+          "id": 3,
+          "productId": 1,
+          "description": "I was a little hesitant to purchase this product, but after reading the positive reviews, I decided to give it a try. I'm glad I did!",
+          "date": "11:05 26.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/0/3077K-00X-050-1-511939.jpg",
+      "name": "Bear in forest",
+      "count": 5,
+      "size": {
+        "width": 42,
+        "height": 61
+      },
+      "weight": "55g",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 2,
+          "description": "I bought this T-shirt as a gift for my brother and he loves it. Thank you!",
+          "date": "16:50 27.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/Y/H/YH138-99X-001-1-246785_2.jpg",
+      "name": "Yin-Yan Fishes",
+      "count": 3,
+      "size": {
+        "width": 44,
+        "height": 62
+      },
+      "weight": "60g",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 3,
+          "description": "Love fishes!",
+          "date": "16:50 27.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/5/1/5165E-45X-050-1-303499_5.jpg",
+      "name": "Pug Life",
+      "count": 7,
+      "size": {
+        "width": 46,
+        "height": 63
+      },
+      "weight": "65g",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/2/7/2767K-00X-052-1-419461_10.jpg",
+      "name": "Dragon Power",
+      "count": 9,
+      "size": {
+        "width": 48,
+        "height": 64
+      },
+      "weight": "70g",
+      "comments": []
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/6/3671R-99X-050-1-636787_1.jpg",
+      "name": "Freaks",
+      "count": 2,
+      "size": {
+        "width": 48,
+        "height": 64
+      },
+      "weight": "75g",
+      "comments": [
+        {
+          "id": 10,
+          "productId": 6,
+          "description": "The product is good, but the packaging was a bit damaged when it arrived.",
+          "date": "06:30 28.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/6/3635R-67X-050-1-595515_4.jpg",
+      "name": "Lost In Paradise",
+      "count": 0,
+      "size": {
+        "width": 46,
+        "height": 63
+      },
+      "weight": "70g",
+      "comments": [
+        {
+          "id": 14,
+          "productId": 7,
+          "description": "I love this T-shirt!",
+          "date": "11:20 01.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/6/3629R-90X-051-1-598585_1.jpg",
+      "name": "Firewolves",
+      "count": 1,
+      "size": {
+        "width": 44,
+        "height": 62
+      },
+      "weight": "60g",
+      "comments": [
+        {
+          "id": 14,
+          "productId": 8,
+          "description": "It's exactly what I was looking for.",
+          "date": "11:20 01.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/6/4/6443N-99X-051-1-652763_1.jpg",
+      "name": "Savage Fighters",
+      "count": 4,
+      "size": {
+        "width": 42,
+        "height": 61
+      },
+      "comments": []
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/6/3636R-00X-050-1-627587_2.jpg",
+      "name": "Worldwide #4",
+      "count": 5,
+      "size": {
+        "width": 40,
+        "height": 60
+      },
+      "weight": "55g",
+      "comments": [
+        {
+          "id": 3,
+          "productId": 10,
+          "description": "I'm very happy with my purchase!",
+          "date": "06:55 03.06.2023"
+        },
+        {
+          "id": 11,
+          "productId": 10,
+          "description": "The T-shirt is good, but it arrived later than expected.",
+          "date": "17:10 02.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/6/3611R-00X-051-1-578415_2.jpg",
+      "name": "Wolf Print",
+      "count": 7,
+      "size": {
+        "width": 44,
+        "height": 62
+      },
+      "weight": "55g",
+      "comments": []
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://static.cropp.com/media/catalog/product/cache/1200/a4e40ebdc3e371adff845072e1c73f37/3/5/3575R-95X-050-1-570549_2.jpg",
+      "name": "Simple Attitude",
+      "count": 12,
+      "size": {
+        "width": 46,
+        "height": 63
+      },
+      "weight": "50g",
+      "comments": []
+    }
+  ]
+}
