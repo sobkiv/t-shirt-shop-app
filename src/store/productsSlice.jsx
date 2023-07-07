@@ -8,10 +8,13 @@ const initialState = {
   error: null,
 };
 
-export const fetchProducts = createAsyncThunk('http://localhost:3000/products', async () => {
-  const response = await axios.get('http://localhost:3000/products');
-  return response.data;
-});
+export const fetchProducts = createAsyncThunk(
+  'http://localhost:3000/products',
+  async () => {
+    const response = await axios.get('http://localhost:3000/products');
+    return response.data;
+  }
+);
 
 export const productsSlice = createSlice({
   name: 'products',
@@ -63,13 +66,6 @@ export const productsSlice = createSlice({
   },
 });
 
-export const {
-  addProduct,
-  removeProduct,
-  editProduct,
-  addToCart,
-  removeFromCart,
-  clearCart,
-} = productsSlice.actions;
+export const { addToCart, removeFromCart } = productsSlice.actions;
 
 export default productsSlice.reducer;
