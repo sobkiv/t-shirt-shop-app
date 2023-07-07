@@ -16,7 +16,7 @@ function Cart() {
         data-bs-target="#staticBackdrop"
       >
         <div className="icon-cart">
-          <img src={cart} alt="" />
+          <img src={cart} alt="cart" />
           <div className="quantity">{totalQuantity}</div>
         </div>
       </button>

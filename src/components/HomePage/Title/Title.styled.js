@@ -24,6 +24,6 @@ export const TitleWrapper = styled.div`
       max-width: 250px;
       position: relative;
       right: 15px;
-    }   
+    }
   }
 `;

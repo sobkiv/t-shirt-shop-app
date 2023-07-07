@@ -1,9 +1,9 @@
-import React, { useMemo, useState } from "react";
-import TShirtCard from "./TShirtCard/TShirtCard";
-import { useSelector } from "react-redux";
-import ProductModal from "./AddModal/AddModal";
-import DeleteModal from "./DeleteModal/DeleteModal";
-import { FlexGrid } from "../styled";
+import React, { useMemo, useState } from 'react';
+import TShirtCard from './TShirtCard/TShirtCard';
+import { useSelector } from 'react-redux';
+import ProductModal from './AddModal/AddModal';
+import DeleteModal from './DeleteModal/DeleteModal';
+import { FlexGrid } from '../styled';
 
 const TShirtGrid = ({ sortOrder }) => {
   const [showAddModal, setShowAddModal] = useState(false);
@@ -27,20 +27,20 @@ const TShirtGrid = ({ sortOrder }) => {
     if (!products) return [];
     let newProducts = [...products];
     switch (sortOrder) {
-      case "nameAsc":
+      case 'nameAsc':
         newProducts = [...products].sort((a, b) =>
           a.name && b.name ? a.name.localeCompare(b.name) : 0
         );
         break;
-      case "nameDesc":
+      case 'nameDesc':
         newProducts = [...products].sort((a, b) =>
           b.name && a.name ? b.name.localeCompare(a.name) : 0
         );
         break;
-      case "countAsc":
+      case 'countAsc':
         newProducts = [...products].sort((a, b) => a.count - b.count);
         break;
-      case "countDesc":
+      case 'countDesc':
         newProducts = [...products].sort((a, b) => b.count - a.count);
         break;
       default:
@@ -54,14 +54,14 @@ const TShirtGrid = ({ sortOrder }) => {
     <FlexGrid>
       {showAddModal && (
         <ProductModal
-          product={selectedProduct || undefined}
+          product={selectedProduct}
           showAddModal={showAddModal}
           setShowAddModal={setShowAddModal}
         />
       )}
       {showDeleteModal && (
         <DeleteModal
-          product={selectedProduct || undefined}
+          product={selectedProduct}
           showDeleteModal={showDeleteModal}
           setShowDeleteModal={setShowDeleteModal}
         />

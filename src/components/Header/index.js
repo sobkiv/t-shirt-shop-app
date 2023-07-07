@@ -1,7 +1,7 @@
-import React from "react";
-import { HeaderWrapper } from "./Header.styled";
-import logo from "../../assets/logo.png";
-import HomeButton from "./HomeButton/HomeButton";
+import React from 'react';
+import { HeaderWrapper } from './Header.styled';
+import logo from '../../assets/logo.png';
+import HomeButton from './HomeButton/HomeButton';
 
 const Header = () => {
   return (

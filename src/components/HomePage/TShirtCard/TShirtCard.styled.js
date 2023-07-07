@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { TShirtCard } from "../../styled";
+import styled from 'styled-components';
+import { TShirtCard } from '../../styled';
 
 export const StyledTShirtCard = styled(TShirtCard)`
   .info-wrapper {

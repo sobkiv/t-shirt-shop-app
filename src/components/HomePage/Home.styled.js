@@ -44,4 +44,3 @@ export const SearchButtonWrapper = styled.div`
     }
   }
 `;
-

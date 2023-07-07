@@ -10,7 +10,7 @@ export const HeaderWrapper = styled.div`
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
+
   h1 {
     font-weight: 700;
     color: ${({ theme }) => theme.mainColors.dark};
@@ -42,7 +42,7 @@ export const HeaderWrapper = styled.div`
     left: 30px;
     top: -1px;
     filter: invert(92%);
-    
+
     @media (max-width: 660px) {
       left: 15px;
       width: 45px;

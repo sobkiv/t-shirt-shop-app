@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const HomeButtonWripper = styled.div`
-	a {
+  a {
     text-decoration: none;
   }
-	
+
   div {
     position: relative;
-	  right: 25px;
+     right: 25px;
     color: #fff;
     background-color: ${({ theme }) => theme.mainColors.main};
     padding: 9px 15px;

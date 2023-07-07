@@ -1,10 +1,13 @@
-import React from "react";
-import { FlexGrid } from "../styled";
+import { FlexGrid } from '../styled';
 
 function TShirtSort({ handleSortChange, sortOrder }) {
   return (
     <FlexGrid>
-      <select className="custom-select" onChange={handleSortChange} value={sortOrder}>
+      <select
+        className="custom-select"
+        onChange={handleSortChange}
+        value={sortOrder}
+      >
         <option value="nameAsc">Name (A-Z)</option>
         <option value="nameDesc">Name (Z-A)</option>
         <option value="countAsc">Count (Low to High)</option>
