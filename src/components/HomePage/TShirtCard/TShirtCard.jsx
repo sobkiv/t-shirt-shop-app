@@ -6,7 +6,7 @@ const TShirtCard = ({ id, product, onDelete, onAdd, }) => {
 
   return (
     <StyledTShirtCard>
-      <Link className="btns" to={`/product/${id}`}>
+      <Link className="buttons" to={`/product/${id}`}>
         <div className="img-wrapper">
           <img src={product.imageUrl} alt="product" />
         </div>

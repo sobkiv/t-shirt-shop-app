@@ -5,7 +5,7 @@ import { HomeButtonWripper } from './HomeButton.styled';
 const HomeButton = () => {
   return (
     <HomeButtonWripper>
-      <Link className="btns" to={`/t-shirt-list`}>
+      <Link className="buttons" to={`/t-shirt-shop-app`}>
 			  <div>GoHome</div>
       </Link>
     </HomeButtonWripper>

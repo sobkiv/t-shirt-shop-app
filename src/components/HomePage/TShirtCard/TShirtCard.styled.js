@@ -22,12 +22,7 @@ export const StyledTShirtCard = styled(TShirtCard)`
     background-color: ${({ theme }) => theme.mainColors.main};
   }
 
-  h1,
-  p {
-    display: flex;
-    justify-content: center;
-  }
-  .btns {
+  .buttons {
     margin-top: 15px;
     display: flex;
     justify-content: space-between;

@@ -29,7 +29,7 @@ export const CardWrapper = styled.div`
     border-color: ${({ theme }) => theme.mainColors.main};
 }
 
-@media (max-width: 767px) {
+@media (max-width: 660px) {
     .btn-primary {
         width: 52px;
         height: 52px;

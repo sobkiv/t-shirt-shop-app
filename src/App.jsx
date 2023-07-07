@@ -19,7 +19,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <Routes>
-            <Route exact path="t-shirt-list/" element={<Home />} />
+            <Route exact path="t-shirt-shop-app/" element={<Home />} />
             {/* <Route exact path="/t-shirt/:id" element={<TShirt />} /> */}
           </Routes>
         </BrowserRouter>

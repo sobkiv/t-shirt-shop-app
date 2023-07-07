@@ -41,13 +41,4 @@ export const TShirtCard = styled.div`
       }
     }
   }
-
-  h1 {
-    margin: 10px 0;
-    font-size: 21px;
-  }
-
-  p {
-    margin: 0;
-  }
 `;

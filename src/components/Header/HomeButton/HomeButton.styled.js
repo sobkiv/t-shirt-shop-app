@@ -31,6 +31,7 @@ export const HomeButtonWripper = styled.div`
       right: 15px;
       font-size: 13px;
       padding: 7px 11px;
+      left: -7px;
     }
   }
 `;
