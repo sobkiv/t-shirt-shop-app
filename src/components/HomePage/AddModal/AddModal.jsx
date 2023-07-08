@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Modal from 'react-modal';
 import { useDispatch } from 'react-redux';
 import { addToCart } from '../../../store/productsSlice';
+import { ModalWrapper, ModalContent, GlobalStyle } from './AddModal.styled';
 
 const ProductModal = ({ product, showAddModal, setShowAddModal }) => {
   const [chosenAmount, setChosenAmount] = useState(0);
@@ -18,24 +18,36 @@ const ProductModal = ({ product, showAddModal, setShowAddModal }) => {
     setShowAddModal(false);
   };
 
+  const correctQuantityValidator = (e) => {
+    const value = Number(e.target.value);
+    if (value <= quantity) {
+      setChosenAmount(value);
+    }
+  };
+
   return (
-    <Modal isOpen={showAddModal} contentLabel={'Add Product'}>
-      <h2>{'Add Product'}</h2>
-      <h3>{product.name}</h3>
-      <div>
-        <label>Count:</label>
-        <input
-          type="number"
-          min="0"
-          max={quantity}
-          step="1"
-          onChange={(e) => setChosenAmount(Number(e.target.value))}
-          required
-        />
-      </div>
-      <button onClick={handleConfirm}>Confirm</button>
-      <button onClick={handleCancel}>Cancel</button>
-    </Modal>
+    <>
+      <GlobalStyle showModal={showAddModal} />
+      <ModalWrapper isOpen={showAddModal} contentLabel={'Add Product'}>
+        <ModalContent>
+          <h2>{'Add Product'}</h2>
+          <h3>{product.name}</h3>
+          <div>
+            <label>Count:</label>
+            <input
+              type="number"
+              min="0"
+              max={quantity}
+              step="1"
+              onChange={correctQuantityValidator}
+              required
+            />
+          </div>
+          <button onClick={handleConfirm}>Confirm</button>
+          <button onClick={handleCancel}>Cancel</button>
+        </ModalContent>
+      </ModalWrapper>
+    </>
   );
 };
 

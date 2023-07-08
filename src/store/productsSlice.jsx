@@ -37,13 +37,12 @@ export const productsSlice = createSlice({
       const existingItem = state.cart.find((item) => item.id === id);
       if (existingItem) {
         existingItem.chosenAmount -= chosenAmount;
-        if (existingItem.chosenAmount <= 0) {
-          state.cart = state.cart.filter((item) => item.id !== id);
-          const product = state.products.find((p) => p.id === id);
-          if (product) {
-            product.count += chosenAmount;
-          }
-        }
+        state.cart = state.cart.map((el) =>
+          el.id === id ? { ...el, count: el.count - chosenAmount } : el
+        );
+        state.products = state.products.map((el) =>
+          el.id === id ? { ...el, count: el.count + chosenAmount } : el
+        );
       }
     },
     clearCart(state) {
