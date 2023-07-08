@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/t-shirt-shop-app/static/css/main.0a077b67.css",
-    "main.js": "/t-shirt-shop-app/static/js/main.438146a6.js",
+    "main.js": "/t-shirt-shop-app/static/js/main.b3ca71cf.js",
     "static/media/logo.png": "/t-shirt-shop-app/static/media/logo.8c62a60206a4315fa3ec.png",
     "static/media/shopping-bag.svg": "/t-shirt-shop-app/static/media/shopping-bag.b61d52a9cc338b5bb1baebd86103eeba.svg",
     "index.html": "/t-shirt-shop-app/index.html",
     "main.0a077b67.css.map": "/t-shirt-shop-app/static/css/main.0a077b67.css.map",
-    "main.438146a6.js.map": "/t-shirt-shop-app/static/js/main.438146a6.js.map"
+    "main.b3ca71cf.js.map": "/t-shirt-shop-app/static/js/main.b3ca71cf.js.map"
   },
   "entrypoints": [
     "static/css/main.0a077b67.css",
-    "static/js/main.438146a6.js"
+    "static/js/main.b3ca71cf.js"
   ]
 }
